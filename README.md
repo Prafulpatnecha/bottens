@@ -15,14 +15,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-![Screenshot_20240405_090348]()
-![India flag]()
-![Gradient Button]()
-![Watch Flutter]()
-![laubch_botten]()
-![Dark Shadow Butten]()
-![a shadow button]()
-
 <h2>➡️ 5.2 Lab Work Lec</h2>
 <hr>
 <p>
