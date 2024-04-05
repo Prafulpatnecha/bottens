@@ -84,16 +84,33 @@ import 'package:flutter/material.dart';
 
 // ui->5
 
+// void main() {
+//   runApp(
+//     MaterialApp(
+//       title: 'An Indian Flag',
+//       debugShowCheckedModeBanner: false,
+//       home: Scaffold(
+//         appBar: appbardetails5(),
+//         body: Scaffold(
+//           appBar: appbardetails5_1(),
+//           body: Align(child: containerdetails5(),),
+//         ),
+//       ),
+//     ),
+//   );
+// }
+
+//ui->6
 void main() {
   runApp(
     MaterialApp(
-      title: 'An Indian Flag',
+      title: 'Watch',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: appbardetails5(),
+        appBar: appbardetails6(),
         body: Scaffold(
-          appBar: appbardetails5_1(),
-          body: Align(child: containerdetails5(),),
+          appBar: appbardetails6_1(),
+          body: containerdetails6(),
         ),
       ),
     ),

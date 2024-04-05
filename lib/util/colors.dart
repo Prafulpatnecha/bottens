@@ -24,3 +24,8 @@ Color bluebottem=const Color(0xff3E53B7);
 Color orangeindia=const Color(0xffFF5722);
 Color greenindia=const Color(0xff388E3C);
 // ui->6
+Color topflu=const Color(0xff36314F);
+Color barflu=const Color(0xff48416A);
+Color lastflu=const Color(0xff2293EE);
+Color centerbutten=const Color(0xff446FA2);
+Color centerflu=const Color(0xff3863A1);

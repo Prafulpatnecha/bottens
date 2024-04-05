@@ -105,9 +105,34 @@ AppBar appbardetails5_1() {
     centerTitle: true,
     elevation: 9,
     shadowColor: Colors.black,
-    title: const Text('An Indian Flag',style: TextStyle(
-      color: Colors.white,
-      fontWeight: FontWeight.w600,
-    ),),
+    title: const Text(
+      'An Indian Flag',
+      style: TextStyle(
+        color: Colors.white,
+        fontWeight: FontWeight.w600,
+      ),
+    ),
+  );
+}
+//ui->6
+
+AppBar appbardetails6() {
+  return AppBar(
+    backgroundColor: topflu,
+    toolbarHeight: 35,
+  );
+}
+
+AppBar appbardetails6_1() {
+  return AppBar(
+    backgroundColor: barflu,
+    title: const Text(
+      'Watch',
+      style: TextStyle(
+        color: Colors.white,
+      ),
+    ),
+    elevation: 10,
+    shadowColor: Colors.black,
   );
 }

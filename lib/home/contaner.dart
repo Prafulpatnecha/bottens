@@ -143,47 +143,105 @@ Widget contianerdetails4() {
 // ui->5
 Widget containerdetails5() {
   return Container(
-      height: double.infinity,
-      width: double.infinity,
+    height: double.infinity,
+    width: double.infinity,
+    decoration: BoxDecoration(
+      gradient: LinearGradient(
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: [
+          bluelightbar,
+          bluebottem,
+        ],
+      ),
+    ),
+    alignment: Alignment.center,
+    child: Container(
+      height: 150,
+      width: 260,
       decoration: BoxDecoration(
+        color: Colors.red,
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
           colors: [
-            bluelightbar,
-            bluebottem,
+            orangeindia,
+            orangeindia,
+            Colors.white,
+            greenindia,
+            greenindia,
           ],
         ),
+        border: Border.all(
+          color: Colors.white,
+        ),
       ),
-      alignment: Alignment.center,
+      child: const Center(
+          child: Text(
+        '⁕',
+        style: TextStyle(
+          fontSize: 80,
+          color: Color(0xff00008B),
+          height: -0.1,
+        ),
+      )),
+    ),
+  );
+}
+
+//ui->6
+Widget containerdetails6() {
+  return Container(
+    height: double.infinity,
+    width: double.infinity,
+    decoration: BoxDecoration(
+      gradient: LinearGradient(
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: [
+          barflu,
+          centerflu,
+          lastflu,
+        ],
+      ),
+    ),
+    child: Align(
       child: Container(
-        height: 150,
-        width: 260,
+        height: 80,
+        width: 220,
         decoration: BoxDecoration(
-          color: Colors.red,
+          border: Border.all(
+            color: Colors.white30,
+          ),
+          borderRadius: BorderRadius.circular(35),
+          boxShadow: const [
+            BoxShadow(
+              color: Colors.black12,
+              offset: Offset(0, 0),
+              spreadRadius: 0.5,
+              blurStyle: BlurStyle.solid,
+              blurRadius: 30,
+            ),
+          ],
           gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
             colors: [
-              orangeindia,
-              orangeindia,
-              Colors.white,
-              greenindia,
-              greenindia,
+              const Color(0xff4D79AE),
+              centerbutten,
+              const Color(0xff416B9F),
+              const Color(0xff416B9F),
             ],
           ),
-          border: Border.all(
-            color: Colors.white,
+        ),
+        child: const Align(
+          child: Text(
+            'Flutter',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 24,
+            ),
           ),
         ),
-        child: const Center(
-          child: Text('⁕', style: TextStyle(
-                fontSize: 80,
-            color: Color(0xff00008B),
-            height: -0.1,
-          ),
-          )
-          ),
-        ),
+      ),
+    ),
   );
 }
