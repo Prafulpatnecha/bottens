@@ -19,7 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 <hr>
 <p>
 <a href ="https://github.com/Prafulpatnecha/bottens">
-<img src="https://github.com/Prafulpatnecha/bottens/assets/144161200/cb9b58e5-488b-40ac-b339-e07bbbd1226c" width="22%" Height="35%">
   <img src="https://github.com/Prafulpatnecha/bottens/assets/144161200/216bcead-6ee5-48b2-b295-5a60837493b8" width="22%" Height="35%">
   <img src="https://github.com/Prafulpatnecha/bottens/assets/144161200/b78187c2-372d-430c-8958-31682f0bc850" width="22%" Height="35%">
   <img src="https://github.com/Prafulpatnecha/bottens/assets/144161200/9aee2f03-a740-4c74-a43b-dac26b0ff9b6" width="22%" Height="35%">
