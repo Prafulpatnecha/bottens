@@ -87,7 +87,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-
       title: 'An Indian Flag',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
